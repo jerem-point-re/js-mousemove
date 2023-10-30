@@ -24,6 +24,12 @@ body {
     justify-content: center;
 }
 
+.nav {
+    background-color: var(--secondary-color);
+    height: 32px;
+    width: 100vw;
+}
+
 .main {
     height: 97vh;
 }
