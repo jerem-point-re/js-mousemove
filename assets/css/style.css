@@ -32,6 +32,7 @@ body {
     background-color: var(--primary-color);
     border-radius: 1em;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    cursor: crosshair;
     flex-direction: column;
     gap: 2rem;
     height: 400px;
@@ -98,6 +99,7 @@ p {
 .circle-a {
     border: var(--medium) 3px dashed;
     height: 70px;
+    mix-blend-mode: difference;
     width: 70px;
 }
 
@@ -110,5 +112,6 @@ p {
 .circle-c {
     background-color: var(--medium);
     height: 9px;
+    mix-blend-mode: multiply;
     width: 9px;
 }
